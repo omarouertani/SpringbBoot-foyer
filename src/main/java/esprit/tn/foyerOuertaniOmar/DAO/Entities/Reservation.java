@@ -17,9 +17,8 @@ import java.util.Set;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Reservation {
     @Id
-
     @Column(name = "idReservation")
-     long idReservation;
+     String idReservation;
      Date anneeUniversitaire;
      boolean estVide;
     @ManyToMany(mappedBy = "resEt")

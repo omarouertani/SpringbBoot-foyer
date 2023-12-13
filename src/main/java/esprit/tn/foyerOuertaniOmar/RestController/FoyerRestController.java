@@ -2,13 +2,13 @@ package esprit.tn.foyerOuertaniOmar.RestController;
 
 import esprit.tn.foyerOuertaniOmar.DAO.Entities.Foyer;
 import esprit.tn.foyerOuertaniOmar.Services.IFoyerService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
+import lombok.AllArgsConstructor;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@RestController
+@AllArgsConstructor
+@RequestMapping("foyer")
 public class FoyerRestController {
     IFoyerService iFoyerService;
 

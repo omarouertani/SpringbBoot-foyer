@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @AllArgsConstructor
-
+@RequestMapping("chambre")
 public class ChambreRestController {
     IChambreService iChambreService;
 

@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @AllArgsConstructor
+@RequestMapping("bloc")
 public class BlocRestController {
     IBlocService iBlocService;
 
